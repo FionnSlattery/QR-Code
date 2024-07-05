@@ -48,6 +48,7 @@ img {
   font-family: Outfit;
   color: hsl(220, 15%, 55%);
   overflow: hidden;
+  
 }
 
 .heading {
@@ -56,11 +57,13 @@ img {
   overflow: hidden;
 }
 
-@media (max-width: 480px) {
-            body{
-              padding-top:75px;
+@media (max-width: 390px) {
+            .container {
+              width: 60%;
             }
-            img {
-              width:100%;
+            
+            body {
+              padding-top: 85px;
             }
+            
 }
